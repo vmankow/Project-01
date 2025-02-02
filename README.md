@@ -1,7 +1,7 @@
 # Project-01
 
-# Your Name
+# Violet Mankowski
 
-# Your Github username
+# vmankow
 
-# List the things you added for points
+# Completed Project 01. More than 8 knots, torch item, hunger variable/stat, keeps track of visited paths. 
