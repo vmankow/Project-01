@@ -18,7 +18,7 @@
 */
 
 VAR key = false
-VAR whip = false
+VAR whip_pickup = false
 VAR strength = 0
 VAR smarts = 0
 
@@ -52,6 +52,14 @@ You walk further backstage where the tiger cage is, only to find it is not there
 * [Pick up the whip] -> whip
 + [Follow prints] -> follow_prints
 + [Set Trap] -> set_trap
+
+== whip ==
+You now have a whip.
+-> fight_tiger
+
+== set_trap ==
+You set a trap near the circus and wait. After hours, the tiger finally appears. You have now trapped the tiger. 
+-> discover_truth
 
 == follow_prints ==
 You follow the prints int the forest, but the trail stops abruptly. Suddenly the tiger leaps out at you! 
